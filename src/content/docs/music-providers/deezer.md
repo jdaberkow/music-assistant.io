@@ -26,7 +26,7 @@ Connecting your account puts your Deezer favourites and playlists alongside the 
 | Artist Top Tracks Support                       |            Yes                     |
 | Similar Artists Support                         |            Yes                     |
 | Similar Tracks Support                          |            Yes                     | 
-| Maximum Stream Quality | FLAC 44.1kHz 16 bit |
+| Maximum Stream Quality | FLAC 96kHz 24 bit |
 | Login Method | Cookie (ARL) |
 
 ### Other
@@ -77,6 +77,7 @@ Independent accounts have their own ARL and are not in that list. Log in on deez
 
 Refer to the [Library Import Control](/music-providers/#library-import-control) settings.
 
+- **Stream quality**: the highest quality Music Assistant asks Deezer for: Hi-Res (FLAC 24-bit, the default), CD quality (FLAC) or MP3 320 kbps. If a track has no file in that quality, or your Deezer plan does not include it, the next lower one plays. Few tracks on Deezer have a hi-res file.
 - **Continue in the Deezer app**: when you open a Deezer app, it continues where Music Assistant stopped. Off by default. If several people share one Deezer account, the app continues whatever played last.
 
 ## Known Issues / Notes
